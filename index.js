@@ -1,6 +1,9 @@
 !(function (e, n) {
   module.exports = n(e);
 })(typeof window !== "undefined" ? window : null, function (o, e) {
+  if (o === null) {
+    return;
+  }
   if (!o.jWeixin) {
     var n,
       c = {
